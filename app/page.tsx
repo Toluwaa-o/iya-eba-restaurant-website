@@ -24,7 +24,7 @@ export default function Home() {
         </span>
 
         <MainImage
-          src={"/stock-photo-jollof-rice-with-chicken-and-plantains.jpg"}
+          src={"/depositphotos_154705288-stock-photo-west-african-national-cuisine-jollof.jpg"}
           alt={"Jollof rice with chicken and plantain"}
         />
       </span>
