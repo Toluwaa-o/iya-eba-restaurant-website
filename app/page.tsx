@@ -31,7 +31,7 @@ export default function Home() {
         />
         </span>
 
-        <span className="hidden md:flex md:flex-wrap md:justify-center">
+        <span className="hidden md:flex md:flex-wrap md:justify-center min-h-[100vh] gap-1">
           {pics.map((picData: PicData) => {
             return <span key={picData.alt} className="w-[33%] h-[40vh]">
               <MainImage {...picData} />

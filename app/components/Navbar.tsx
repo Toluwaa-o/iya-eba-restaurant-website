@@ -24,7 +24,7 @@ export default function Navbar({}: Props) {
     >
       <ul className="p-0 text-center text-2xl gap-[5vh] grid md:flex md:text-[1.2rem] md:items-center md:justify-between md:gap-0 md:min-w-[35vw]">
         {data.map((obj: DataItem, index: number) => {
-          return <LinkList link={obj.link} text={obj.text} pname={pname} />;
+          return <LinkList key={obj.link} {...obj} pname={pname} />;
         })}
       </ul>
 
