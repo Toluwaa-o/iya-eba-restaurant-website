@@ -45,10 +45,10 @@ export default function Home() {
         </p>
       </span>
 
-      <span className="grid gap-6 h-[100vh] place-content-center">
+      <span className="grid gap-6 h-[100vh] place-content-center p-2">
         <MainImage
           src={
-            "/depositphotos_154705288-stock-photo-west-african-national-cuisine-jollof.jpg"
+            "/stock-photo-thai-cuisine-concept-homemade-beef-red-curry-panang-black-background.jpg"
           }
           alt={"Nigerian party jollof rice"}
         />
@@ -57,13 +57,10 @@ export default function Home() {
             Satisfaction guaranteed
           </h2>
           <p className="">
-            At Iya Eba, customer satisfaction is our top priority. We take pride
-            in delivering exceptional service and delectable dishes that
-            tantalize your taste buds. Our commitment to quality ingredients,
-            authentic flavors, and meticulous preparation ensures that every
-            meal is a delightful experience. With our dedication to excellence,
-            we guarantee that your culinary journey with us will be nothing
-            short of exceptional.
+            At Iya Eba, your satisfaction is paramount. We are dedicated to
+            providing you with flavorful, top-quality dishes and excellent
+            service. With our commitment to excellence, we ensure that every
+            dining experience with us is truly exceptional.
           </p>
         </span>
       </span>
