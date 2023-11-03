@@ -9,7 +9,7 @@ type Props = {
 
 export default function LinkList({ pname, link, text }: Props) {
   return (
-    <li className={pname === link ? "text-darkBrown capitalize" : "capitalize"}>
+    <li className={pname === link ? "text-darkBrown capitalize md:hover:text-darkBrown" : "capitalize md:hover:text-darkBrown"}>
       <Link href={link}>{text}</Link>
     </li>
   );

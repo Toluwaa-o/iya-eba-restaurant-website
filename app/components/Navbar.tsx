@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import React from "react";
 import { Roboto_Serif } from "next/font/google";
 import { usePathname } from "next/navigation";
