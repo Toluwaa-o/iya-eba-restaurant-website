@@ -9,7 +9,7 @@ export default function Header() {
   const [showNavBar, setShowNavBar] = useState(false);
 
   return (
-    <header className="p-6 flex justify-between items-center relative shadow-sm">
+    <header className="p-6 flex justify-between items-center sticky top-0 shadow-sm bg-background">
       <Logo />
       <HamburgerMenu
         handler={() => setShowNavBar(!showNavBar)}
