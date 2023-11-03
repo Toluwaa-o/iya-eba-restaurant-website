@@ -12,7 +12,7 @@ type Props = {};
 
 const roboto_serif = Roboto_Serif({
   subsets: ["latin"],
-  weight: "500",
+  weight: "400",
 });
 
 export default function Navbar({}: Props) {
@@ -20,15 +20,17 @@ export default function Navbar({}: Props) {
 
   return (
     <nav
-      className={`${roboto_serif.className} absolute top-0 bg-background left-0 right-0 w-screen h-screen place-content-center grid nav_animation gap-[10vh]`}
+      className={`${roboto_serif.className} absolute top-0 bg-background left-0 right-0 w-screen h-screen place-content-center grid nav_animation gap-[10vh] md:relative md:w-fit md:h-fit md:left-[unset] md:right-[unset]`}
     >
-      <ul className="p-0 text-center text-2xl gap-[5vh] grid">
+      <ul className="p-0 text-center text-2xl gap-[5vh] grid md:flex md:text-[1.2rem] md:items-center md:justify-between md:gap-0 md:min-w-[35vw]">
         {data.map((obj: DataItem, index: number) => {
           return <LinkList link={obj.link} text={obj.text} pname={pname} />;
         })}
       </ul>
 
+      <span className="md:hidden">
       <SocialMedia mySize={30} />
+      </span>
     </nav>
   );
 }

@@ -17,13 +17,7 @@ export default function MainImage({ src, alt }: Props) {
         height={375}
       />
 
-      <Image
-        className="md:block hidden"
-        src={src}
-        alt={alt}
-        width={760}
-        height={375}
-      />
+      <img className="md:block hidden md:w-[100%] m-auto md:z-20" src={src} alt={alt} />
     </span>
   );
 }

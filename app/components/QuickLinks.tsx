@@ -18,7 +18,10 @@ export default function QuickLinks({}: Props) {
             <Link href="/services">Services</Link>
           </li>
           <li className="md:hover:text-darkBrown transition-all">
-            <Link href="/contact-us">Contact us</Link>
+            <Link href="/contact">Contact us</Link>
+          </li>
+          <li className="md:hover:text-darkBrown transition-all">
+            <Link href="/menus">Menus</Link>
           </li>
         </ul>
       </nav>

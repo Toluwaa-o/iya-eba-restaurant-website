@@ -18,8 +18,8 @@ export default function Logo({}: Props) {
       <Image
         src="/logo-no-background.png"
         alt="Iya Eba Logo"
-        width={60}
-        height={60}
+        width={280}
+        height={280}
         className="hidden md:block"
       />
     </>

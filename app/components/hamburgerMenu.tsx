@@ -21,7 +21,7 @@ export default function HamburgerMenu({ handler, showNavBar }: Props) {
   return (
     <div
       id="nav-icon1"
-      className={show ? "open z-30" : " z-30"}
+      className={show ? "open z-30 md:hidden" : " z-30 md:hidden"}
       onClick={clickHandler}
     >
       <span></span>
